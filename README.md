@@ -12,6 +12,18 @@ A partir de un archivo `.xlsx`, FillMaster puede:
 
 ---
 
+## Capturas de pantalla
+
+**Ventana principal**, lista para agregar archivos y elegir las opciones:
+
+![Ventana principal de FillMaster](.screenshots/screenshot_1.png)
+
+**Resultado del procesamiento**, con el reporte detallado por archivo:
+
+![Reporte de resultados de FillMaster](.screenshots/screenshot_2.png)
+
+---
+
 ## ¿Cómo funciona?
 
 FillMaster lee la hoja `NACIONAL` del archivo (si no existe, usa la primera hoja) y
@@ -145,6 +157,9 @@ FillMaster/
 │   └── fillmaster-gui.py      # Copia de la interfaz gráfica
 ├── executable/
 │   └── FillMaster             # Ejecutable para Linux
+├── .screenshots/              # Capturas usadas en esta documentación
+│   ├── screenshot_1.png
+│   └── screenshot_2.png
 └── .github/workflows/build.yml # Compilación y publicación automática
 ```
 
